@@ -25,7 +25,7 @@ class Main {
             os.close();
             System.out.println("11111");
 
-            // レスポンスを受信する
+            // レスポンスを受信する
             int iResponseCode = httpcon.getResponseCode();
             System.out.println(httpcon.getResponseMessage());
             System.out.println(iResponseCode);
@@ -44,6 +44,7 @@ class Main {
                 System.out.println("3333");
                 System.out.println(result);
             }
+            // TODO: aaaaa
         } catch(IOException e) {
             e.printStackTrace();
             System.out.println("22222");
