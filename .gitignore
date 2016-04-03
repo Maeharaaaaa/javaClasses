@@ -2,3 +2,5 @@
 compileLog/
 *.class
 javaClasses.iml
+out/
+.DS_Store
